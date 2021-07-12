@@ -11,7 +11,7 @@ EXT_ORIGINAL="mp3"
 EXT_DESIRED="ogg"
 
 # announce start running script
-echo "start running " $PWD
+echo "start running " $PWD/$0
 
 # check if files/ exists
 if [ -d "$DIR_MEDIA" ];
@@ -68,4 +68,4 @@ else
 fi
 
 # announce finished running script
-echo "finished running " $PWD
+echo "finished running " $PWD/$0
