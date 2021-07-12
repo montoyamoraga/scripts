@@ -11,7 +11,7 @@ if [ -d "files" ];
 then
 
   echo "success, files/ exists"
-  
+
   # if there are /.mp3 files in files/
   if [ -f files/*.mp3 ];
     then
@@ -45,7 +45,6 @@ then
     else
       echo "fail, no mp3 files "
   fi
-
 
 # if files/ does not exist
 else
