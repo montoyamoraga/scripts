@@ -11,4 +11,5 @@ for i in files/*.mp3;
   ffmpeg -i "$i" "${name}.ogg"
   # delete original .mp3 file
   rm "$i"
+# finish iteration
 done
